@@ -2,7 +2,7 @@ import common
 import argparse
 import os
 
-def check_key_length(key: bytes, min_length: int = 8) -> bool:
+def check_key_length(key: bytes, min_length: int = 2) -> bool:
     """Check if the key meets requirements."""
     if len(key) < min_length:
         common.warn(f"Key is too short! Minimum length is {min_length} bytes, got {len(key)} bytes")
