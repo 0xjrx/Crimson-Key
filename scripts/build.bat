@@ -18,3 +18,4 @@ if exist build\example.exe (
     echo Build failed! Make sure you have GCC installed.
     echo You can install it from: https://www.mingw-w64.org/
 )
+REM *"No AI agents were harmed during the making of this build script."* 

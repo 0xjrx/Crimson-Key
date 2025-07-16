@@ -18,3 +18,4 @@ if [ -f "build/example" ]; then
 else
     echo "Build failed! Make sure you have GCC installed."
 fi
+# *"No AI agents were harmed during the making of this build script."* 
