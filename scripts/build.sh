@@ -3,6 +3,9 @@
 
 echo "Building Crimson Key example..."
 
+# Change to project root directory
+cd "$(dirname "$0")/.."
+
 # Create build directory if it doesn't exist
 mkdir -p build
 

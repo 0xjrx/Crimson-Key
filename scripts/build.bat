@@ -2,6 +2,9 @@
 REM Build the Crimson Key C API example
 echo Building Crimson Key example...
 
+REM Change to project root directory
+cd /d "%~dp0\.."
+
 REM Create build directory if it doesn't exist
 if not exist "build" mkdir build
 
