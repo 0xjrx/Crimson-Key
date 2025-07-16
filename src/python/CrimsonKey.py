@@ -111,5 +111,8 @@ if __name__ == "__main__":
 
         
         parse()
+    except (argparse.ArgumentError, ValueError) as e:
+        common.warn(f"Argument parsing error: {e}")
     except Exception as e:
-        common.warn(f"Something went wrong, the error is {e}")
+        common.error(f"Unexpected error: {e}")
+        raise
