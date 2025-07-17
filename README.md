@@ -8,7 +8,7 @@ A dual-language cryptographic key encoding/decoding system with Python encoder a
 
 ## 🔑 What is Crimson Key?
 
-Crimson Key is a security-focused tool that allows you to:
+Crimson Key is a obfuscation-focused tool that allows you to:
 - **Encode** keys using Python with XOR encryption and brute-force hints
 - **Decode** keys using a lightweight C API in your applications
 - **Avoid storing plain keys** in binaries or configuration files
@@ -82,6 +82,7 @@ chmod +x scripts/build.sh
 - **Configuration files** - Obfuscate sensitive data
 - **Source code** - Avoid plain text secrets
 - **Reverse engineering protection** - Make key extraction harder
+- **Malware Development** Hide the key to decrypt your shellcode or beacon
 
 ## 🔒 Security Notes
 
